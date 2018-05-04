@@ -35,7 +35,7 @@ export default new Router({
       component:NewsList
     },
     {
-      path:'/news/detail',
+      path:'/news/detail/:id',
       component:NewsDetail 
     },
     {
